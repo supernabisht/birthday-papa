@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Papa🎉</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+  <h1>Happy Birthday Papa!!🎂❤️<br>
+    You deserve the best today and always!
+  </h1>
+
+  <img src="images/dad.jpg" alt="Dad Photo" class="dad-photo" />
+
+  <p class="message">
+    I know I may not always show it, and at times, I've let my actions speak wrongly for my heart.<br><br>
+    You deserve nothing but the purest joy, the kindest words, and the best life has to offer.<br>
+    Thank you for being the best father out there. 🥰
+  </p>
+
+  <!-- Slideshow (initially hidden) -->
+  <div id="slideshow" style="display: none;">
+    <img id="slideImage" src="images/img1.jpg" alt="Birthday Photo of Dad" />
+  </div>
+
+  <!-- Click Me Button -->
+  <button onclick="showMessage()">Click Me 🎁</button>
+
+  <!-- Birthday Song (autoplay removed, plays on click) -->
+  <audio id="birthdaysong" loop>
+    <source src="images/Justin-Bieber-DAISIES-(CoolXclusive.com).mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
